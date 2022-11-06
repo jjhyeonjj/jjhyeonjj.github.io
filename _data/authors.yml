@@ -1,12 +1,17 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
+# 이 블로그의 원저자.
+# `_config.yml`의 `author`와 동일해야 합니다.
+# `author1`을 짧은 이름으로 변경합니다.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              <JinHyeon> <Jeong>
+  email:             <jjh4523a@gmail.com>
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  # 각 페이지 하단과 `about` 레이아웃 상단에 사용
+  # 마크다운 활성화, 여러 단락 사용 가능(`|`로 활성화)
   about:             |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
