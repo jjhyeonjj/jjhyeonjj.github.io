@@ -2,13 +2,21 @@
 # ========================================================================================
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
+# 주석을 제거하고 사이트의 URL을 설정합니다(프로토콜 포함, 예: `https://`).
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://username.github.io
+#참고: GitHub Pages 또는 Netlify에서 호스팅할 때는 이 속성을 제공할 필요가 없습니다.
+
+url:                   https://jjhyeonjj.github.io
 
 # Uncomment and set the "base URL" of your site.
+#주석을 제거하고 사이트의 "기본 URL"을 설정합니다.
 # When your site is in a subdirectory, set to `/<name of directory>`,
+# 사이트가 하위 디렉토리에 있을 때 `/<디렉토리 이름>`으로 설정하고,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
+# 선행 `/`이 있지만 후행 `/`은 없습니다. 그렇지 않으면 빈 문자열 ''을 사용하십시오.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
+# 참고: GitHub Pages 또는 Netlify에서 호스팅할 때는 이 속성을 제공할 필요가 없습니다.
+
 # baseurl:               '/hydejack-starter-kit'
 
 
@@ -17,47 +25,68 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
+# 2글자 코드로 된 콘텐츠 언어, 예: en, de.
+# 위치를 제공할 수도 있습니다(예: en-us, de_AT).
 lang:                  en
-
+charset:               UTF-8
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Starter Kit
+# 블로그 제목. 사이드바 및 브라우저 탭에서 사용됩니다.
+title:                 jjhyeonjj's blog
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
+# 메타 설명 태그에 사용되는 페이지의 짧은 설명(최대 150자).
+# 마크다운을 사용할 수 있지만 하나의 단락만 사용할 수 있습니다(`>`에 의해 시행됨).
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  진현이가 배우고 공부한 코딩 내용을 기록하는 블로그입니다.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+# 사이드바에 대한 짧은 설명.
+tagline:               ˚✧₊⁎( ˘ω˘ )⁎⁺˳✧༚
 
 # A list of keywords for your blog
+# 블로그 키워드 목록
 keywords:              []
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
+# 귀하의 사이트에 대한 (정사각형) 로고.
+# 제공된 경우 사이드바 상단에 표시됩니다.
+# `jekyll-seo-tag` 플러그인에서도 사용됩니다.
 logo:                  /assets/img/logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
+# `_data/authors.yml`의 첫 번째 항목과 동일한 작성자여야 합니다.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+# `jekyll-feed`에서 사용:
+  name:                <JinHyeon> <Jeong>
+  email:               <jjh4523a@gmail.com>
   # # Used by `jekyll-seo-tag`:
+  # # `jekyll-seo-tag`에서 사용:
   # twitter:             <username>
 
 # Add links to the sidebar.
+# 사이드바에 링크를 추가합니다.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
-    url:               /about/
+#  - title:             Example
+#    url:               /example/
+#  - title:             Documentation
+#    url:               /docs/
+#  - title:             About
+#    url:               /about/
+  - title:             Java
+    url:               /java/
+  - title:             DB
+    url:               /db/
+  - title:             Spring
+    url:               /spring/    
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
+# 바닥글에 링크를 추가합니다.
+# 일반적으로 쿠키 또는 개인 정보 보호 정책(해당되는 경우) 등에 연결하려고 합니다.
 legal:
   - title:             LICENSE
     url:               /LICENSE/
@@ -67,12 +96,15 @@ legal:
     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
+# 이 텍스트는 모든 페이지 바닥글의 `<small>` 태그에 표시됩니다.
 copyright:             © 2021. All rights reserved.
 
 # Format of the permalinks
+# 퍼머링크의 형식
 permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
+# 페이지 매김 구성(`blog` 레이아웃에서 사용)
 paginate:              10
 paginate_path:         /:num/
 
@@ -81,6 +113,7 @@ paginate_path:         /:num/
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
+# 테마: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 
@@ -88,6 +121,7 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
+# 사이트의 사이드바 이미지 및 테마 색상.
 accent_image:          /assets/img/sidebar-bg.jpg
 accent_color:          rgb(79,177,186)
 
