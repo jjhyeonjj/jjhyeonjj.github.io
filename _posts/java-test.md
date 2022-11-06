@@ -4,7 +4,6 @@ title: "TEST POST"
 description: >
 HELLO! 자바 테스트 첫번째 게시물입니다.
 categories: java
-date:   now()
 sitemap: false
 hide_last_modified: true
 ---
