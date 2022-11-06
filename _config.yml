@@ -244,28 +244,39 @@ kramdown:
 
 hydejack:
   # Configure the order of complementary content on blog posts
+  # 블로그 게시물의 보완 콘텐츠 순서 구성
   post_addons:         [about, newsletter, related, random, comments]
 
   # Configure the order of complementary content on project pages
+  # 프로젝트 페이지의 보완 콘텐츠 순서 구성
   project_addons:      [about, newsletter, other, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
+  # 외부 링크를 나타내는 아이콘을 표시하지 않으려면 'true'로 설정하십시오.
   no_mark_external:    false
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
+  # 타사 플러그인이 동적으로 로드된 페이지에서 작동하지 않으면 'true'로 설정
   no_push_state:       false
 
   # Set to `true` if you want to disable the drawer
+  # 그리기를 비활성화하려면 'true'로 설정하십시오.
   no_drawer:           false
 
   # Set to `true` if you don't to use the auto-hiding (JavaScript based) navbar.
   # Note that this will not hide the navbar completely, only replace it with a static one.
   # Use custom css to hide completely, e.g. `#_navbar { display: none }`.
+  # 자동 숨기기(JavaScript 기반) 탐색 모음을 사용하지 않으려면 'true'로 설정합니다.
+  # 이것은 navbar를 완전히 숨기지 않고 정적 인 것으로만 대체한다는 점에 유의하십시오.
+  # 사용자 정의 CSS를 사용하여 완전히 숨깁니다. `#_navbar { 표시: 없음 }`.
   no_navbar:           false
 
   # Set to true to disable the built-in search functionality.
   # Note that search is disabled during local use to save on build time.
   # Run Jekyll with the `JEKYLL_ENV` environment variable set to `production` to enable.
+  # 내장 검색 기능을 비활성화하려면 true로 설정합니다.
+  # 빌드 시간을 절약하기 위해 로컬 사용 중에는 검색이 비활성화됩니다.
+  # `JEKYLL_ENV` 환경 변수를 `production`으로 설정하여 Jekyll을 실행하여 활성화합니다.
   no_search:           false
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
