@@ -122,7 +122,7 @@ remote_theme: hydecorp/hydejack@v9
  
 # Sidebar image and theme color of the site.
 # 사이트의 사이드바 이미지 및 테마 색상.
-accent_image:          /assets/img/야옹이.jpg
+accent_image:          /assets/img/북극곰.jpg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
