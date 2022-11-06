@@ -5,17 +5,16 @@ layout: list
 
 # The title of the tag's page.
 # 태그 페이지의 제목.
-title: Example
+title: Java
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
 # 게시물의 앞부분에 사용되는 태그의 이름(예: 태그: [<slug>]).
-slug: example
+slug: java
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 # (선택 사항) 이 추천 태그에 대한 짧은 설명(최대 150자)을 작성합니다.
 description: >
-  This is a featured category, which have their own page.
-  Check out `_featured_tags/example.md` to learn how to create your own.
+   Java 언어 공부 & 기록 페이지 
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
