@@ -1,4 +1,4 @@
----
+$---
 layout: post
 title: Introducing Hydejack 9
 image: 

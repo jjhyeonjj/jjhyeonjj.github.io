@@ -54,7 +54,7 @@ keywords:              []
 # 귀하의 사이트에 대한 (정사각형) 로고.
 # 제공된 경우 사이드바 상단에 표시됩니다.
 # `jekyll-seo-tag` 플러그인에서도 사용됩니다.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/jhLogo.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 # `_data/authors.yml`의 첫 번째 항목과 동일한 작성자여야 합니다.
@@ -70,18 +70,18 @@ author:
 # Add links to the sidebar.
 # 사이드바에 링크를 추가합니다.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
+  #- title:             Example
+  #  url:               /example/
+  #- title:             Documentation
+  #  url:               /docs/
   - title:             Java
     url:               /java/
   - title:             DB
     url:               /db/
   - title:             Spring
     url:               /spring/    
-  - title:             About
-    url:               /about/
+  #- title:             About
+  #  url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
