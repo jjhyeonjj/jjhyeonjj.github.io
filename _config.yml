@@ -182,10 +182,10 @@ defaults:
 
   # # You can use the following to enable comments on all posts.
   # # 다음을 사용하여 모든 게시물에 댓글을 활성화할 수 있습니다.
-   - scope:
-       type:            posts
-     values:
-       comments:        true
+  # - scope:
+  #     type:            posts
+  #   values:
+  #     comments:        true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
