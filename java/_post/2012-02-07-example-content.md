@@ -1,63 +1,63 @@
 ---
 layout: post
-title: Example Content
+title: TEST POST
 description: >
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+HELLO! 자바 테스트 첫번째 게시물입니다.
 sitemap: false
 hide_last_modified: true
 ---
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+테스트 
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+> 테스트 중 입니다.
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+테스트 글 입니다.
 
-## Inline HTML elements
+## 인라인 HTML 요소
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+HTML은 사용 가능한 인라인 태그의 긴 목록을 정의하며 전체 목록은 [Mozilla 개발자 네트워크](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)에서 찾을 수 있습니다.
 
-- **To bold text**, use `**To bold text**`.
-- *To italicize text*, use `*To italicize text*`.
-- Abbreviations, like HTML should be defined like this `*[HTML]: HyperText Markup Language`.
-- Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
-- ~~Deleted~~ text should use `~~deleted~~` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+- **글씨를 굵게 하려면** `**글씨를 굵게**`를 사용하세요.
+- *텍스트를 기울임꼴로 하려면* `*텍스트를 기울임꼴로 표시*'를 사용합니다.
+- HTML과 같은 약어는 `*[HTML]: HyperText Markup Language`와 같이 정의해야 합니다.
+- <cite>&mdash와 같은 인용 otto</cite>를 표시하고 `<cite>`를 사용해야 합니다.
+- ~~Deleted~~ 텍스트는 `~~deleted~~`를 사용해야 하고 <ins>ins>ins> 텍스트는 `<ins>`를 사용해야 합니다.
+- 위 첨자 <sup>text</sup>는 `<sup>`를 사용하고 아래 첨자 <sub>text</sub>는 `<sub>`를 사용합니다.
 
-Most of these elements are styled by browsers with few modifications on our part.
+이러한 요소의 대부분은 브라우저에 의해 스타일이 지정되며 약간의 수정이 필요합니다.
 
-## Heading 2
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+## 제목 2
+'##' 2개 사용한 제목입니다.
 
 ### Heading 3
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.
+'###' 3개 사용한 제목입니다.
 
 #### Heading 4
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.
+'####' 4개 사용한 제목입니다.
 
 ##### Heading 5
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.
+'#####' 5개 사용한 제목입니다.
 
 ###### Heading 6
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.
+'######' 6개 사용한 제목입니다.
 
 ## Code
 
 Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
 
 ~~~js
-// Example can be run directly in your JavaScript console
+// 예제는 JavaScript 콘솔에서 직접 실행할 수 있습니다.
 
-// Create a function that takes two arguments and returns the sum of those
-// arguments
+// 두 개의 인수를 취하여 그 합을 반환하는 함수를 만듭니다.
+// 인수
 var adder = new Function("a", "b", "return a + b");
 
-// Call the function
+// 함수 호출
 adder(2, 6);
 // > 8
 ~~~
 
-## Lists
+## 기울기
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
 
@@ -74,13 +74,13 @@ Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a p
 Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
 
 HyperText Markup Language (HTML)
-: The language used to describe and define the content of a Web page
+: 웹 페이지의 내용을 설명하고 정의하는 데 사용되는 언어
 
 Cascading Style Sheets (CSS)
-: Used to describe the appearance of Web content
+: 웹 콘텐츠의 모양을 설명하는 데 사용
 
 JavaScript (JS)
-: The programming language used to build advanced Web sites and applications
+: 고급 웹 사이트 및 응용 프로그램을 구축하는 데 사용되는 프로그래밍 언어
 
 Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
 
