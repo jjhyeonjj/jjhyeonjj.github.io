@@ -10,7 +10,7 @@ slug: javanote
 
 # (선택 사항) 이 추천 태그에 대한 짧은 설명(최대 150자)을 작성합니다.
 description: >
-   Java 언어 공부 & 필기
+   Java 공부 & 필기
 
 # (선택사항) 날짜별 게시물 그룹화를 비활성화할 수 있습니다.
 # no_groups: true
