@@ -3,14 +3,14 @@
 layout: list
 
 # 태그 페이지의 제목.
-title: Java
+title: JavaNote
 
 # 게시물의 앞부분에 사용되는 태그의 이름(예: 태그: [<slug>]).
-slug: java
+slug: javanote
 
 # (선택 사항) 이 추천 태그에 대한 짧은 설명(최대 150자)을 작성합니다.
 description: >
-   Java 언어 공부 & 기록 페이지 
+   Java 언어 공부 & 필기
 
 # (선택사항) 날짜별 게시물 그룹화를 비활성화할 수 있습니다.
 # no_groups: true
