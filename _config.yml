@@ -78,8 +78,8 @@ menu:
     url:               /javanote/
   - title:             DB
     url:               /db/
-  - title:             Spring
-    url:               /spring/    
+  - title:             SpringNote
+    url:               /springnote/    
   #- title:             About
   #  url:               /about/
 

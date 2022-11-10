@@ -3,10 +3,10 @@
 layout: list
 
 # 태그 페이지의 제목.
-title: Spring
+title: SpringNote
 
 # 게시물의 앞부분에 사용되는 태그의 이름(예: 태그: [<slug>]).
-slug: spring
+slug: springnote
 
 # (선택 사항) 이 추천 태그에 대한 짧은 설명(최대 150자)을 작성합니다.
 description: >
