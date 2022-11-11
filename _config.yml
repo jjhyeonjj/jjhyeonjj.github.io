@@ -77,7 +77,7 @@ menu:
   - title:             JavaNote
     url:               /javanote/
   - title:             DB
-    url:               /db/
+    url:               /dbnote/
   - title:             SpringNote
     url:               /springnote/    
   #- title:             About
