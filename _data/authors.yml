@@ -21,8 +21,8 @@ author1:
     path:            https://cdn.pixabay.com/photo/2021/07/05/00/58/dolphin-6387856_960_720.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://via.placeholder.com/128x128
-      2x:            https://via.placeholder.com/256x256
+      1x:            https://cdn.pixabay.com/photo/2021/07/05/00/58/dolphin-6387856_960_720.png
+      2x:            https://cdn.pixabay.com/photo/2021/07/05/00/58/dolphin-6387856_960_720.png
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
