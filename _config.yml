@@ -80,7 +80,7 @@ menu:
     url:               /dbnote/
   - title:             SpringNote
     url:               /springnote/    
-  - title:             Practice_Java
+  - title:             JavaPractice
     url:               /practiceJava/  
   #- title:             About
   #  url:               /about/

@@ -3,7 +3,7 @@
 layout: list
 
 # 태그 페이지의 제목.
-title: Practice_Java
+title: JavaPractice
 
 # 게시물의 앞부분에 사용되는 태그의 이름(예: 태그: [<slug>]).
 slug: practiceJava
