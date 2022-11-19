@@ -81,7 +81,7 @@ menu:
   - title:             SpringNote
     url:               /springnote/    
   - title:             JavaPractice
-    url:               /practiceJava/  
+    url:               /javapractice/  
   #- title:             About
   #  url:               /about/
 
