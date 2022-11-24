@@ -81,7 +81,7 @@ menu:
   - title:             SpringNote
     url:               /springnote/   
   - title:             Python, Statistics, ML
-    url:               /python, statistics, ML/   
+    url:               /psm/   
   - title:             JavaPractice
     url:               /javapractice/  
 
