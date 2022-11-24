@@ -79,9 +79,12 @@ menu:
   - title:             DBNote
     url:               /dbnote/
   - title:             SpringNote
-    url:               /springnote/    
+    url:               /springnote/   
+  - title:             Python, Statistics, ML
+    url:               /python, statistics, ML/   
   - title:             JavaPractice
     url:               /javapractice/  
+
   #- title:             About
   #  url:               /about/
 
